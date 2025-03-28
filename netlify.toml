@@ -2,8 +2,5 @@
   command = "bash netlify.sh"
   publish = "dist/"
 
-[build.environment]
-  PYTHON_VERSION = "3.8"
-
 [build.processing]
   skip_processing = true
