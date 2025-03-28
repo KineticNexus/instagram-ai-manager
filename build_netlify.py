@@ -114,7 +114,7 @@ def create_netlify_config_files(dist_dir):
     
     # Create runtime.txt
     with open(dist_dir / "runtime.txt", "w") as f:
-        f.write("python-3.9.16")
+        f.write("python-3.8")
     
     # Create requirements.txt with minimal dependencies
     with open(dist_dir / "requirements.txt", "w") as f:
