@@ -1,4 +1,4 @@
-# Static site configuration
+# Static site configuration - no build needed
 [build]
   publish = "public/"
-  command = "mkdir -p public && cp -r *.html *.css _redirects public/ 2>/dev/null || true"
+  command = ""
