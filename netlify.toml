@@ -1,5 +1,5 @@
 [build]
-  command = "mkdir -p dist && cp -r index.html _redirects dist/ && echo 'Build complete'"
+  command = "npm run build"
   publish = "dist/"
   
 [build.environment]
