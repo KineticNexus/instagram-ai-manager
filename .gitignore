@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment and configuration
+.env
+venv/
+env/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Session data
+session.json
+web_interface_session.json
+
+# Images and generated content
+generated_content/
+
+# Node.js
+node_modules/
+
+# Credentials
+.env.production
+.env.development
+.env.test
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
+
+# Database
+*.sqlite
+*.db
+
+# Build artifacts
+*.spec
+
+# Test coverage
+.coverage
+htmlcov/
+
+# pyenv
+.python-version
+
+# pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Cache directories
+__pycache__/
+.cache/
+.pytest_cache/
+
+# Media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+*.avi
+*.webp
+
+# Local environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
