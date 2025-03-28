@@ -1,5 +1,5 @@
 [build]
-  command = "pip install -r requirements-netlify.txt && python build_standalone.py"
+  command = "pip install -r requirements-netlify.txt && python build_netlify.py"
   publish = "dist/"
 
 [build.environment]
