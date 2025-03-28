@@ -101,6 +101,39 @@ python build_standalone.py
 4. Copy the entire `dist` directory to your USB drive or any location
 5. Run the application using the launcher script in the `dist` directory
 
+## Deploying to Netlify
+
+The Instagram AI Bot can be deployed to Netlify for cloud-based access:
+
+1. Fork or clone this repository
+2. Sign up for a Netlify account if you don't have one
+3. Create a new site from Git in the Netlify dashboard
+4. Connect to your GitHub repository
+5. Set the build settings automatically (they will be loaded from `netlify.toml`)
+6. Add the required environment variables in the Netlify dashboard:
+   - `INSTAGRAM_USERNAME`
+   - `INSTAGRAM_PASSWORD`
+   - `OPENAI_API_KEY`
+   - `MIDJOURNEY_API_KEY`
+7. Deploy your site
+
+The deployment includes:
+- A simplified web interface accessible from any device
+- REST API endpoints for bot control
+- Automatic updates when you push changes to the repository
+
+### Troubleshooting Netlify Deployment
+
+If you encounter issues with the deployment:
+
+1. Check the build logs in the Netlify dashboard
+2. Ensure all environment variables are correctly set
+3. Try deploying with the simplified requirements by using:
+   ```
+   pip install -r requirements-netlify.txt
+   ```
+4. For Python package build issues, check that the correct version of Pillow is specified in `requirements-netlify.txt`
+
 ## Manual Startup
 
 If you prefer to start the components manually:
