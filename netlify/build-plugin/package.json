@@ -1,0 +1,16 @@
+{
+  "name": "netlify-python-dependencies-plugin",
+  "version": "1.0.0",
+  "description": "Netlify Build Plugin to install Python dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "netlify",
+    "netlify-plugin",
+    "python"
+  ],
+  "author": "KineticNexus",
+  "license": "MIT"
+}
