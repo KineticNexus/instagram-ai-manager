@@ -1,5 +1,5 @@
 [build]
-  command = "pip install -r requirements-netlify.txt && python build_netlify.py"
+  command = "bash netlify.sh"
   publish = "dist/"
 
 [build.environment]
@@ -7,6 +7,3 @@
 
 [build.processing]
   skip_processing = true
-
-[[plugins]]
-  package = "/netlify/build-plugin"
