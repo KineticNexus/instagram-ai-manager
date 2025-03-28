@@ -1,6 +1,4 @@
+# Static site configuration
 [build]
-  command = "npm run build"
-  publish = "dist/"
-  
-[build.environment]
-  NODE_VERSION = "18"
+  publish = "public/"
+  command = "mkdir -p public && cp -r *.html *.css _redirects public/ 2>/dev/null || true"
