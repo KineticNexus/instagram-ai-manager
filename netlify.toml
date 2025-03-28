@@ -1,27 +1,9 @@
 [build]
-  command = "pip install -r requirements.txt && python build_standalone.py"
-  publish = "dist"
+  command = "pip install -r requirements-netlify.txt && python build_standalone.py"
+  publish = "dist/"
 
 [build.environment]
   PYTHON_VERSION = "3.9"
 
-# External packages that require system dependencies
-[[build.packages]]
-  name = "pillow"
-  external = true
-
-[[build.packages]]
-  name = "torch"
-  external = true
-
-[[build.packages]]
-  name = "torchvision"
-  external = true
-
-[[build.packages]]
-  name = "opencv-python" 
-  external = true
-
-[[build.packages]]
-  name = "easyocr"
-  external = true
+[build.processing]
+  skip_processing = true
