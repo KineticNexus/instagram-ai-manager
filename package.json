@@ -1,0 +1,19 @@
+{
+  "name": "instagram-ai-manager",
+  "version": "1.0.0",
+  "description": "Instagram AI Bot static landing page",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r index.html _redirects dist/"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KineticNexus/instagram-ai-manager.git"
+  },
+  "author": "Kinetic Nexus",
+  "license": "UNLICENSED",
+  "private": true
+}
